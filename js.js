@@ -71,16 +71,16 @@
 
 // findindex()
 
-const customers = [
-    { name: "Adam", age: 67 },
-    { name: "Basia", age: 27 },
-    { name: "Marta", age: 17 },
-];
+// const customers = [
+//     { name: "Adam", age: 67 },
+//     { name: "Basia", age: 27 },
+//     { name: "Marta", age: 17 },
+// ];
 
-const isUsersAdult = customers.findIndex(customer => customer.age < 18)
-console.log(isUsersAdult);
+// const isUsersAdult = customers.findIndex(customer => customer.age < 18)
+// console.log(isUsersAdult);
 
-//find() 
+// //find() 
 
-const firstAdultUser = customers.find(customer => customer.age >= 18)
-console.log(firstAdultUser); // {name: "Adam", age: 67}
+// const firstAdultUser = customers.find(customer => customer.age >= 18)
+// console.log(firstAdultUser); // {name: "Adam", age: 67}
